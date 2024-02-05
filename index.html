@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-up">
+        <div class="html">
+            <div class="heading">
+                <label>HTML</label>
+            </div>
+            <textarea class="html-text" id="html-text"onkeyup="run()">
+            
+            </textarea>
+        </div>
+        <div class="css">
+            <div class="heading">
+                <label>CSS</label>
+            </div>
+            <textarea class="css-text" id="css-text" onkeyup="run()"></textarea>
+        </div>
+        <div class="javascript">
+            <div class="heading">
+                <label>J-SCRIPT</label>
+            </div>
+            <textarea class="js-text" id="js-text" onkeyup="run()"></textarea></div>
+    </div>
+    <div class="container-down">
+        <iframe id="output"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
